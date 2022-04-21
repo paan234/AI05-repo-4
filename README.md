@@ -23,22 +23,24 @@ The train data is split into train-validation sets, with a ratio of 80:20.
 The model architecture used for this project is U-Net. You can refer to the TensoFlow documentation for further details. In summary, the model consist of two components, the downward stack, 
 which serves as the feature extractor, and upward stack, which helps to produce pixel-wise output. The model structureis shown in the figure below.
 
-![alt text](https://github.com/paan234/AI05-repo-3/blob/main/Image/Model.png )
+![alt text](https://github.com/paan234/AI05-repo-4/blob/main/Image/Model.png )
 
 The model is trained with a batch size of 16 and 100 epochs. Early stopping is also applied in the model training. The training stops at epoch 22, with a training accuracy of
 97% and validation accuracy of 96%. The model training graphs are shown in figures below.
 
-![alt text](https://github.com/paan234/AI05-repo-3/blob/main/Image/loss_graph.png)
+![alt text](https://github.com/paan234/AI05-repo-4/blob/main/Image/Loss_graph.png)
 
-![alt text](https://github.com/paan234/AI05-repo-3/blob/main/Image/accuracy_graph.png)
+![alt text](https://github.com/paan234/AI05-repo-4/blob/main/Image/Accuracy_graph.png)
 
 The graphs show a clear sign of model convergence at an excellent convergence point.
 
 ## 4. Results
 The model is evaluated with the test data. The loss and accuracy are shown in figure below.
 
-![alt text](https://github.com/paan234/AI05-repo-3/blob/main/Image/Test_result.png)
+![alt text](https://github.com/paan234/AI05-repo-4/blob/main/Image/Test_result.png)
 
 Some predictions are also been made with the model using some of the test data. The actual output masks and prediction masks are shown in figures below.
 
-![alt text](https://github.com/paan234/AI05-repo-3/blob/main/Image/Result.png)
+![alt text](https://github.com/paan234/AI05-repo-4/blob/main/Image/Prediction(1).png)
+![alt text](https://github.com/paan234/AI05-repo-4/blob/main/Image/Prediction(2).png)
+![alt text](https://github.com/paan234/AI05-repo-4/blob/main/Image/Prediction(3).png)
